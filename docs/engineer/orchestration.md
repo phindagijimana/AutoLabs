@@ -106,7 +106,7 @@ For lab pipelines, batching matters in two places:
 - **Planner emits a batch** — q-acquisition across q experiments at once.
 - **Scheduler enforces resource batching** — e.g., one plate-reader read per plate, not per well.
 
-Batching also matters for cost-aware LLM calls — batch where possible; use OpenAI / Anthropic batch APIs for non-urgent jobs.
+Batching also matters for cost-aware LLM calls — batch where possible; most vendors expose batch APIs at lower cost for non-urgent jobs.
 
 ## Long-running workflows
 

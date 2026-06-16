@@ -137,7 +137,7 @@ Some questions need a whole paper, not chunks. Options:
 
 - **Map-reduce** — summarise each chunk; combine summaries; answer over combined summary.
 - **Sliding-window summarisation** — produce a running summary; use it as context.
-- **Long-context model** — Claude 200k+, GPT 128k, etc.
+- **Long-context model** — frontier vendor models now offer 100k–1M+ token contexts.
 
 Each has costs. For systematic-review-style synthesis, map-reduce is most defensible.
 

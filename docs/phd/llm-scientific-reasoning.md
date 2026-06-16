@@ -23,7 +23,7 @@ What they are not good at:
 
 | Decision | Today's defaults |
 | --- | --- |
-| Closed vs. open weights | Frontier (Claude, GPT, Gemini) for the hardest reasoning; open (Llama, Qwen, Mistral) for cost-sensitive scale. |
+| Closed vs. open weights | Frontier closed-weight models for the hardest reasoning; open-weight models (Llama, Qwen, Mistral) for cost-sensitive scale. |
 | Domain specialisation | Pre-trained-on-PubMed (PubMedBERT, BioMistral, BioGPT) competitive but trailing frontier general models on reasoning. |
 | Tool use | Required for any production system that touches data. |
 | Retrieval | Required for any factual task. |
