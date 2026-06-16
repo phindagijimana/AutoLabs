@@ -1,0 +1,115 @@
+site_name: AutoLabs
+site_description: AutoLabs — Autonomous Labs and Literature Synthesis. A multi-level handbook from beginner to senior research engineer.
+site_url: https://phindagijimana.github.io/AutoLabs/
+repo_url: https://github.com/phindagijimana/AutoLabs
+repo_name: phindagijimana/AutoLabs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.action.edit
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - Beginner:
+      - beginner/index.md
+      - What is an autonomous lab?: beginner/autonomous-labs.md
+      - What is literature synthesis?: beginner/literature-synthesis.md
+      - Glossary: beginner/glossary.md
+  - Intermediate:
+      - intermediate/index.md
+      - Closed-loop systems: intermediate/closed-loop.md
+      - AI planners: intermediate/ai-planner.md
+      - Lab robotics: intermediate/robotic-equipment.md
+      - Experiment data analysis: intermediate/data-analysis.md
+      - Biomedical NLP: intermediate/biomedical-nlp.md
+      - Knowledge graphs: intermediate/knowledge-graphs.md
+      - Hypothesis generation: intermediate/hypothesis-generation.md
+      - Systematic review support: intermediate/systematic-review.md
+  - PhD / Researcher:
+      - phd/index.md
+      - Bayesian optimisation for experiments: phd/bayesian-optimization.md
+      - Reinforcement learning planners: phd/reinforcement-learning.md
+      - LLM scientific reasoning: phd/llm-scientific-reasoning.md
+      - Active learning under constraints: phd/active-learning.md
+      - Relation extraction: phd/relation-extraction.md
+      - Knowledge-graph construction: phd/kg-construction.md
+      - Retrieval-augmented generation: phd/rag-systems.md
+      - Case study — hippocampal sclerosis: phd/case-study-hs.md
+  - Senior Research Engineer:
+      - engineer/index.md
+      - Architecture: engineer/architecture.md
+      - Orchestration: engineer/orchestration.md
+      - Observability: engineer/observability.md
+      - Reproducibility: engineer/reproducibility.md
+      - Safety & governance: engineer/safety-governance.md
+      - Portfolio & roadmap: engineer/portfolio-roadmap.md
+  - Further reading: further-reading.md
