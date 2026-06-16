@@ -2,6 +2,15 @@
 
 > *Autonomous Labs and Literature Synthesis — a multi-level handbook.*
 
+### Read it online → **[https://phindagijimana.github.io/AutoLabs/](https://phindagijimana.github.io/AutoLabs/)**
+
+[![Site](https://img.shields.io/badge/site-AutoLabs-6f42c1?logo=readthedocs&logoColor=white)](https://phindagijimana.github.io/AutoLabs/)
+[![GitHub](https://img.shields.io/badge/github-phindagijimana%2FAutoLabs-181717?logo=github)](https://github.com/phindagijimana/AutoLabs)
+[![Deploy docs](https://github.com/phindagijimana/AutoLabs/actions/workflows/docs.yml/badge.svg)](https://github.com/phindagijimana/AutoLabs/actions/workflows/docs.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
+---
+
 A reference for building, operating, and reasoning about systems that use AI (and sometimes robots) to **do science**: design experiments, run them, analyse them, and stitch together what the literature already knows.
 
 This handbook is a sibling to [NeuroStack](https://phindagijimana.github.io/neuro_stack/). The structure, tone, and editorial choices follow the same playbook — layered chapters, honest warnings, neuroimaging examples (hippocampal sclerosis recurs as a worked case) — but the subject is different. NeuroStack is about *reading the brain*. AutoLabs is about *accelerating science itself*.
@@ -44,11 +53,14 @@ They are separated because the technical stacks differ, but they belong together
 
 ## Reading the handbook online
 
-Once `mkdocs.yml` is wired to a hosting target (GitHub Pages, internal site), preview locally with:
+The live site is at **[https://phindagijimana.github.io/AutoLabs/](https://phindagijimana.github.io/AutoLabs/)**. It is rebuilt and redeployed by the [`Deploy AutoLabs docs`](.github/workflows/docs.yml) workflow on every push to `main`.
+
+To preview locally:
 
 ```bash
 pip install mkdocs-material
-mkdocs serve
+mkdocs serve            # serves http://127.0.0.1:8000
+mkdocs build --strict   # one-shot build into site/
 ```
 
 ## Status
