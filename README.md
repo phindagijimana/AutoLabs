@@ -72,6 +72,16 @@ Initial draft. The four-level structure is in place; each level has both Part A 
 - [NeuroStack](https://phindagijimana.github.io/neuro_stack/) — neuroimaging fundamentals, data engineering, AI/ML, computing.
 - The companion DBI pipeline and `neuro_handbook` Python package, both referenced from this handbook where their patterns transfer.
 
+## Contact
+
+Maintained by **Philbert Ndagijimana**.
+
+- LinkedIn: [philbert-ndagijimana](https://www.linkedin.com/in/philbert-ndagijimana-319570188/)
+- Email: [phindagiji@gmail.com](mailto:phindagiji@gmail.com)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-philbert--ndagijimana-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/philbert-ndagijimana-319570188/)
+[![Email](https://img.shields.io/badge/email-phindagiji%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:phindagiji@gmail.com)
+
 ## License
 
 MIT (consistent with NeuroStack).

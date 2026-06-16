@@ -42,3 +42,11 @@ This space is over-promised on the internet and under-delivered in real labs. Th
 - It names the failure modes — model hallucination, robot mispipetting, knowledge graphs with garbage edges, reproducibility crises — so you know what to budget for.
 
 If a chapter sounds too optimistic, read it again with the warnings.
+
+## Contact
+
+Maintained by **Philbert Ndagijimana**. Corrections, questions, and contributions welcome.
+
+- LinkedIn: [philbert-ndagijimana](https://www.linkedin.com/in/philbert-ndagijimana-319570188/)
+- Email: [phindagiji@gmail.com](mailto:phindagiji@gmail.com)
+- GitHub: [phindagijimana/AutoLabs](https://github.com/phindagijimana/AutoLabs)

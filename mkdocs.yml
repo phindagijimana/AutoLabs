@@ -77,6 +77,18 @@ markdown_extensions:
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/philbert-ndagijimana-319570188/
+      name: Philbert Ndagijimana on LinkedIn
+    - icon: fontawesome/regular/envelope
+      link: mailto:phindagiji@gmail.com
+      name: Email Philbert
+    - icon: fontawesome/brands/github
+      link: https://github.com/phindagijimana/AutoLabs
+      name: AutoLabs on GitHub
+
 nav:
   - Home: index.md
   - Beginner:
